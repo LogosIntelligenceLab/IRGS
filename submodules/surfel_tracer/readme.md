@@ -1,6 +1,6 @@
 # 2D Gaussian Ray Tracer
 
-An OptiX-based differentiable 2D Gaussian Ray Tracer, which is the cuda backend of [IRGS](https://github.com/fudan-zvg/IRGS).
+An OptiX-based differentiable 2D Gaussian Ray Tracer, which is the cuda backend of [IRGS](https://github.com/LogosIntelligenceLab/IRGS).
 
 ### Install
 ```bash
@@ -16,7 +16,7 @@ pip install .
 ```
 
 ### Example usage
-See `surfel_tracer/raytracer.py` for the usage of the 2D Gaussian Ray Tracer. You can also refer to [IRGS](https://github.com/fudan-zvg/IRGS).
+See `surfel_tracer/raytracer.py` for the usage of the 2D Gaussian Ray Tracer. You can also refer to [IRGS](https://github.com/LogosIntelligenceLab/IRGS).
 
 ### Acknowledgement
 

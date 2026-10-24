@@ -1,5 +1,5 @@
 # IRGS: Inter-Reflective Gaussian Splatting with 2D Gaussian Ray Tracing
-### [[Project]](https://fudan-zvg.github.io/IRGS) [[Paper]](https://arxiv.org/abs/2412.15867) 
+### [[Project]](https://logosintelligencelab.github.io/IRGS) [[Paper]](https://arxiv.org/abs/2412.15867)
 
 > [**IRGS: Inter-Reflective Gaussian Splatting with 2D Gaussian Ray Tracing**](https://arxiv.org/abs/2412.15867),            
 > [Chun Gu](https://sulvxiangxin.github.io/), Xiaofei Wei, Zixuan Zeng, Yuxuan Yao, [Li Zhang](https://lzrobots.github.io)  
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/12ec8516-be4b-4b42-a4cd-e09e2bcb964d
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/fudan-zvg/IRGS.git
+git clone https://github.com/LogosIntelligenceLab/IRGS.git
 
 # This step is same as 2DGS/3DGS
 # Please be aware that the submodules/diff-surfel-rasterization is slightly different from the original version in 2DGS.
@@ -59,7 +59,7 @@ data
 ## Training
 See `run_syn4relight.sh` and `run_tensoir.sh` for training and evaluation scripts on Synthetic4Relight and TensoIR datasets, respectively.
 ### Stage 1: geometry reconstruction
-We recommand to use our group's [Ref-Gaussian](https://github.com/fudan-zvg/ref-gaussian) for robust geometry reconstruction. 
+We recommand to use our group's [Ref-Gaussian](https://github.com/LogosIntelligenceLab/ref-gaussian) for robust geometry reconstruction.
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train_refgaussian.py -s data/Synthetic4Relight/jugs -m outputs/Synthetic4Relight/jugs/refgs --eval -w --lambda_mask_entropy 0.05
 ```
