@@ -5,8 +5,8 @@ An OptiX-based differentiable 2D Gaussian Ray Tracer, which is the cuda backend 
 ### Install
 ```bash
 # clone the repo
-git clone https://github.com/fudan-zvg/surfel_tracer.git
-cd surfel_tracer
+git clone https://github.com/LogosIntelligenceLab/IRGS.git
+cd IRGS/submodules/surfel_tracer
 
 # use cmake to build the project for ptx file (for Optix)
 rm -rf ./build && mkdir build && cd build && cmake .. && make && cd ../
